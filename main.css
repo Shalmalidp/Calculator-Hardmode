@@ -1,0 +1,104 @@
+.container{
+width :40%;
+border :2px solid black;
+padding:0;
+margin: 0 ;
+display:inline-block;
+text-align: center;
+overflow: auto;
+}
+.row1{
+  height: 50px;
+  margin-top: 10px;
+  padding-right:2px;
+  border:0;
+
+}
+.clr{
+  width:60px;
+  height:50px;
+  background-color:#65B356;
+  color: white;
+  padding-right:0;
+  margin-right: -4px;
+  font-size: 15px;
+}
+
+#ans{
+width: 188px;
+height: 49px;
+background-color:#65B356;
+color: white;
+font-size: 15px;
+vertical-align: bottom;
+border:0;
+
+}
+
+#divide{
+  color :black;
+  background-color:#81C275;
+  font-size: 15px;
+}
+#multi{
+  color :black;
+  background-color:#81C275;
+  font-size: 15px;
+}
+
+
+#subtraction{
+  color :black;
+  background-color:#81C275;
+  font-size: 15px;
+}
+
+
+#addition{
+  color:black;
+  background-color:#81C275;
+font-size: 15px;
+}
+
+#addition:hover{
+  color:white;
+  font-weight:normal;
+}
+
+#subtraction:hover{
+color:white;
+font-weight: normal;
+}
+
+#multi:hover{
+color:white;
+font-weight: normal;
+}
+
+#divide:hover{
+color:white;
+font-weight: normal;
+}
+
+
+
+.num{
+  width: 60px;
+  height:50px;
+  background-color:#65B356;
+  color: white;
+  font-size: 15px;
+  margin-bottom:1px;
+  padding:0;
+}
+
+.num:hover{
+color:white;
+font-weight:bold;
+font-size: 1em;
+font-size: 15px;
+}
+
+.clr:hover{
+  background-color:#81C275; 
+}
