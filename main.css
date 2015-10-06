@@ -1,39 +1,81 @@
 .container{
-width :40%;
-border :2px solid black;
-padding:0;
-margin: 0 ;
+width :220px;
+background-color: #ccc;
+border :1px solid black;
+/*padding:5px ;*/
+padding: 0 10px 0 10px;
+box-sizing:border-box;
+margin: auto;
 display:inline-block;
 text-align: center;
 overflow: auto;
 }
 .row1{
-  height: 50px;
+  width:100%;
   margin-top: 10px;
   padding-right:2px;
   border:0;
 
 }
 .clr{
-  width:60px;
-  height:50px;
+  width:40px;
+  height:40px;
   background-color:#65B356;
   color: white;
   padding-right:0;
   margin-right: -4px;
   font-size: 15px;
+float: left;
 }
 
 #ans{
-width: 188px;
-height: 49px;
+width: 125px;
+height: 40px;
 background-color:#65B356;
-color: white;
-font-size: 15px;
+color: black;
+font-size: 25px;
 vertical-align: bottom;
 border:0;
+margin-left: -13px;
 
 }
+.operator{
+  width: 40px;
+  height:40px;
+  background-color:#65B356;
+  color: white;
+  font-size: 15px;
+  margin-bottom:1px;
+  padding-right:5px;
+  margin-right: 1px;
+  float: left;
+
+}
+
+.num{
+  width: 40px;
+  height:40px;
+  background-color:#65B356;
+  color: white;
+  font-size: 15px;
+  margin-bottom:1px;
+  padding-right:5px;
+  margin-right: 5px;
+  float: left;
+}
+
+.eq{
+  width: 40px;
+  height:40px;
+  background-color:#65B356;
+  color: white;
+  font-size: 15px;
+  margin-bottom:1px;
+  padding-right:5px;
+  margin-right: 5px;
+  float: left;
+}
+
 
 #divide{
   color :black;
@@ -45,7 +87,6 @@ border:0;
   background-color:#81C275;
   font-size: 15px;
 }
-
 
 #subtraction{
   color :black;
@@ -80,16 +121,12 @@ color:white;
 font-weight: normal;
 }
 
-
-
-.num{
-  width: 60px;
-  height:50px;
-  background-color:#65B356;
+.eq:hover{
   color: white;
-  font-size: 15px;
-  margin-bottom:1px;
-  padding:0;
+  background-color: #81C275;
+}
+.operator:hover{
+  color: white;
 }
 
 .num:hover{
@@ -101,4 +138,8 @@ font-size: 15px;
 
 .clr:hover{
   background-color:#81C275; 
+}
+
+#ans{
+  color: black;
 }
